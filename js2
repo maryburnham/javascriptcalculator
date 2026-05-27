@@ -19,14 +19,14 @@ let c = Number(a) - Number(b);
 document.getElementById("ans").innerHTML = c;
 }
 
-function sub(){
+function mul(){
 let a = document.getElementById("fn").value;
 let b = document.getElementById("sn").value;
 let c = Number(a) * Number(b);
 document.getElementById("ans").innerHTML = c;
 }
 
-function sub(){
+function div(){
 let a = document.getElementById("fn").value;
 let b = document.getElementById("sn").value;
 let c = Number(a) / Number(b);
@@ -43,8 +43,8 @@ document.getElementById("ans").innerHTML = c;
 
 <button onclick="add()"> Add the Numbers </button>
 <button onclick="sub()"> Subtract the Numbers </button>
-<button onclick="sub()"> Multiply the Numbers </button>
-<button onclick="sub()"> Divide the Numbers </button>
+<button onclick="mul()"> Multiply the Numbers </button>
+<button onclick="div()"> Divide the Numbers </button>
 
 </p>
 <p>
